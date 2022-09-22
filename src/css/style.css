@@ -1,5 +1,5 @@
 #bg-image1{
-  background-image: url('../image/Moon_Background.png');
+  background-image: url('../image/Moon_Background.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center bottom;
@@ -19,7 +19,7 @@
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 .name-card-2{
   opacity: 0;
@@ -27,7 +27,7 @@
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
 }
 .name-card-3{
   opacity: 0;
@@ -43,7 +43,7 @@
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 4s;
 }
 
 
