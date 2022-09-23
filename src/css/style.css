@@ -1,3 +1,11 @@
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 #bg-image1{
   background-image: url('../image/Moon_Background.webp');
   background-repeat: no-repeat;
@@ -11,6 +19,15 @@
   animation-fill-mode: forwards;
   
 
+}
+
+#down-arrow{
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
 }
 
 .name-card-1{
