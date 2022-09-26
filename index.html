@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="src/css/style.css">
   <link href="http://fonts.cdnfonts.com/css/beckman" rel="stylesheet">
 </head>
-<body class="bg-black text-center overflow-x-hidden">
-    <div class="-z-50" id="bg-image1">
+<body onscroll="document.getElementById('#bg-image2').scrollIntoView();" class="bg-black text-center overflow-x-hidden">
+  <div class="-z-50" id="bg-image1">
     <div class="relative">
     <div class="line-1"></div>
     <div class="line-2"></div>
@@ -36,10 +36,16 @@
 </div>
 <div id="down-arrow" >
   <a>
-  <img src="src/image/down-arrow-svgrepo-com.svg" class="w-12 inline cursor-pointer absolute bottom-0 mb-6 animate-bounce" alt="down-arrow">
+  <img src="src/image/down-arrow-svgrepo-com.svg" onclick="ScrollToFrame2();" class="w-12 inline cursor-pointer absolute bottom-0 mb-6 animate-bounce" alt="down-arrow">
 </a>  
 </div>
 </div>
 </div>
+<div class="-z-50" id="bg-image2">
+</div>
+<script>
+  
+</script>
+<script src="src/script/main.js"></script>
 </body>
 </html>
