@@ -24,7 +24,7 @@ html {
 
 #menu{
   height: 100vh;
-  background-image: url('../image/Eath_bg.jpg');
+  background-image: url('../image/Eath_bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center bottom;
@@ -34,7 +34,7 @@ html {
 
 .fade-Out { opacity: 0; }
 
-.fade-In { opacity: 0.2; }
+.fade-In { opacity: 1; }
 
 #down-arrow{
   opacity: 0;
@@ -728,22 +728,19 @@ animation: slide-in-right 4s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards;
   }
   
   to {
-    opacity: 0.2;
+    opacity: 1;
   }
 }
 
 
-.card-container {
-  max-width: 500px;
-  height: 500px;
-}
+
 .card-container .card {
-  position: absolute;
   margin: auto;
-  width: 300px;
-  height: 200px;
+  width: 18vw;
+  height: 12vw;
   padding: 20px;
   overflow: hidden;
+  opacity: 95%;
   background: #ffff;
   border-radius: 10px;
   box-shadow: -2px 2px 0px 0px #ffff, -10px 10px 40px 0px rgba(255, 255, 255, 0.3);
@@ -758,7 +755,7 @@ animation: slide-in-right 4s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards;
 }
 .card-container .card h1 {
   color: gray;
-  font-size: 20px;
+  font-size: 1.25vw;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 20px;
@@ -774,19 +771,19 @@ animation: slide-in-right 4s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards;
   top: 10%;
   bottom: 0;
   right: -50%;
-  width: 300px;
-  height: 300px;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
-  background: #202020;
+  background: #191D21;
   z-index: -2;
 }
 .card-container .card .circle:nth-of-type(2) {
-  width: 100px;
-  height: 100px;
+  width: 6vw;
+  height: 6vw;
   top: 90%;
   right: -20%;
   z-index: -1;
-  background: crimson;
+  background: #ab0a0a;
 }
 
 @media only screen and (max-width: 780px) {
@@ -821,3 +818,4 @@ animation: slide-in-right 4s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards;
     }
   }
 }
+
