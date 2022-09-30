@@ -802,6 +802,10 @@ animation: slide-in-right 4s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards;
   .card-container .card .circle {
     right: -70%;
   }
+  .circle{
+    width: 50vw;
+  height: 50vw;
+  }
 
   @keyframes hvr {
     0% {

@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -355,13 +355,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   /* 2 */
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -574,10 +567,6 @@ html {
   bottom: 0px;
 }
 
-.-z-50 {
-  z-index: -50;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -692,10 +681,6 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-100 {
-  --tw-bg-opacity: 1;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -744,6 +729,8 @@ html {
   opacity: 0.75;
 }
 
-.opacity-100 {
-  opacity: 1;
+@media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+  }
 }
