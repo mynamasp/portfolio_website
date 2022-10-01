@@ -2,9 +2,13 @@ html {
   overflow: scroll;
 }
 
-footer{  
-  transform: translate(-50%, -50%);
-  top: 200%;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 ::-webkit-scrollbar {
