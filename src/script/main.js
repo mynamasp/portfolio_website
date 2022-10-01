@@ -65,25 +65,8 @@ const observerOptions = {
     });
   }
 
-  function observerCallbackSlideIn(entries, observer) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        // fade in observed elements that are in view
-        entry.target.classList.replace('fade-Out', 'fade-In');
-      } else {
-        // fade out observed elements that are not in view
-        entry.target.classList.replace('fade-In', 'fade-Out');
-      }
-    });
-  }
-  
-  
   const observer = new IntersectionObserver(observerCallback, observerOptions);
-  const observerSlideIn = new IntersectionObserver(observerCallbackSlideIn, observerOptions);
-
   
   const fadeElms = document.querySelectorAll('#menu');
   fadeElms.forEach(el => observer.observe(el));
 
-  const fadeCard = document.querySelectorAll('.slide-out-bottom');
-  fadeCard.forEach(el => observerSlideIn.observe(el));

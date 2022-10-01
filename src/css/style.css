@@ -1,6 +1,12 @@
 html {
-  overflow:   scroll;
+  overflow: scroll;
 }
+
+footer{  
+  transform: translate(-50%, -50%);
+  top: 200%;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */

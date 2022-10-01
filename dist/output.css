@@ -598,6 +598,34 @@ html {
   left: 50%;
 }
 
+.bottom-full {
+  bottom: 100%;
+}
+
+.-bottom-full {
+  bottom: -100%;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -617,6 +645,14 @@ html {
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .inline {
@@ -772,6 +808,16 @@ html {
   line-height: 1.5rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -800,6 +846,11 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .opacity-75 {
