@@ -85,5 +85,5 @@ const observerOptions = {
   const fadeElms = document.querySelectorAll('#menu');
   fadeElms.forEach(el => observer.observe(el));
 
-  const fadeCard = document.querySelectorAll('.card');
+  const fadeCard = document.querySelectorAll('.slide-out-bottom');
   fadeCard.forEach(el => observerSlideIn.observe(el));

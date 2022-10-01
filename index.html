@@ -16,28 +16,41 @@
     <div class="line-3"></div>
     <div class="m-auto">   
     <div class="flex h-screen flex-col justify-center items-center basis-auto space-y-4">
-  <h1 class=" text-my-red text-7xl tracking-[.15em] mb-4 font-light name-card-1">
+  <h1 class=" text-my-red text-5xl tracking-[.15em] mb-4 font-light name-card-1 md:text-7xl">
     I AM
   </h1>
-  <h1 class=" text-white text-7xl tracking-[.15em] font-medium name-card-2">
+  <h1 class=" text-white text-5xl tracking-[.15em] font-medium name-card-2 md:text-7xl" >
     PRASANNA VENKATESH
   </h1>
 
-  <div class="bg-white opacity-75 px-8 scrolling-container w-1/3 h-6 name-card-3">
-    <div class="scroll-text font-thin font-xl tracking-[0.195em]">
-        A FULL STACK DEVELOPER • A ROBOTICIST • A WEB 3 BUILDER • A STRATEGIC THINKER • A PROBLEM SOLVER • A DESIGNER
-    </div>
+  <div class="bg-white opacity-75 marquee w-screen h-6 name-card-3 md:w-1/3">
+    <ul class="marquee__content font-thin text-base tracking-[0.195em] " >
+        <li>• A FULL STACK DEVELOPER</li>
+        <li>• A ROBOTICIST</li>
+        <li> • A WEB 3 BUILDER </li>
+        <li>• A STRATEGIC THINKER </li>
+        <li>• A PROBLEM SOLVER</li>
+        <li> • A DESIGNER </li>
+    </ul>
+    <ul aria-hidden="true" class="marquee__content font-thin text-base tracking-[0.195em] ">
+      <li>• A FULL STACK DEVELOPER</li>
+      <li>• A ROBOTICIST</li>
+      <li> • A WEB 3 BUILDER </li>
+      <li>• A STRATEGIC THINKER </li>
+      <li>• A PROBLEM SOLVER</li>
+      <li> • A DESIGNER </li>
+    </ul>
     
   </div>
-  <h2 class="hero glitch layers name-card-4 mx-auto" data-text="MYNAMASP">
+  <h2 class="hero glitch text-5xl layers name-card-4 mx-auto md:text-7xl" data-text="MYNAMASP">
     <span>MYNAMASP</span>
   </h2>
 
 </div> 
 </div>
-<div id="down-arrow" >
+<div id="down-arrow" class="arrow-Fade-In w-12 cursor-pointer absolute bottom-0 left-2/4">
   <a>
-  <img src="src/image/down-arrow-svgrepo-com.svg" onclick="ScrollToFrame2();" class="w-12 inline cursor-pointer absolute bottom-0 mb-6 animate-bounce" alt="down-arrow">
+  <img src="src/image/down-arrow-svgrepo-com.svg" onclick="ScrollToFrame2();" class="animate-bounce" alt="down-arrow">
 </a>  
 </div>
 </div>
@@ -49,28 +62,28 @@
   <div class="card-container m-auto">
     <div class="card ">
       <h1>About</h1>
-      <div class="circle"></div>
+      <div id="primary-circle" class="circle"></div>
       <div class="circle"></div>
     </div>
   </div>
   <div class="card-container m-auto">
     <div class="card">
       <h1>Projects</h1>
-      <div class="circle"></div>
+      <div id="primary-circle" class="circle"></div>
       <div class="circle"></div>
     </div>
   </div>
   <div class="card-container m-auto">
     <div class="card">
       <h1>Certifcates</h1>
-      <div class="circle"></div>
+      <div id="primary-circle" class="circle"></div>
       <div class="circle"></div>
     </div>
   </div>
   <div class="card-container m-auto">
     <div class="card">
       <h1>Events</h1>
-      <div class="circle"></div>
+      <div id="primary-circle" class="circle"></div>
       <div class="circle"></div>
     </div>
   </div>
