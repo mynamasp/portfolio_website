@@ -3,6 +3,10 @@
         color: white;
     }
   
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* make scrollbar transparent */
+    }
 
   .background-container{
       position: fixed;
@@ -53,7 +57,7 @@
           -webkit-transform: translate3d(1000px, 0px, 0px);
       }
   }
-  @-webkit-keyframes move-background {
+@-webkit-keyframes move-background {
     from {
           -webkit-transform: translate3d(0px, 0px, 0px);
       }
@@ -62,7 +66,7 @@
       }
   }
   
-  @-moz-keyframes move-background {    
+@-moz-keyframes move-background {    
       from {
           -webkit-transform: translate3d(0px, 0px, 0px);
       }
@@ -71,7 +75,7 @@
       }
   }
   
-      @-webkit-keyframes move-background {
+@-webkit-keyframes move-background {
       from {
           -webkit-transform: translate3d(0px, 0px, 0px);
       }
@@ -80,3 +84,82 @@
       }
   }
   
+.skills {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.skill {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  position: relative;
+  width: 22.5em;
+}
+.skill__type {
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.85rem;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  width: 5em;
+}
+.skill__outer-bar, .skill__inner-bar {
+  height: 0.75em;
+}
+.skill__outer-bar {
+  background: #333;
+}
+.skill__inner-bar {
+  -webkit-animation: fillBar 1s forwards;
+          animation: fillBar 1s forwards;
+  background: #fff;
+  left: 5em;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+}
+
+.skill__inner-bar--100 {
+  width: 100%;
+}
+.skill__inner-bar--90 {
+  width: 90%;
+}
+.skill__inner-bar--80 {
+  width: 80%;
+}
+.skill__inner-bar--70 {
+    width: 80%;
+}
+.skill__inner-bar--60 {
+  width: 60%;
+}
+.skill__inner-bar--50 {
+  width: 50%;
+}
+.skill__inner-bar--40 {
+  width: 40%;
+}
+.skill__inner-bar--30 {
+  width: 30%;
+}
+.skill__inner-bar--20 {
+  width: 20%;
+}
+.skill__inner-bar--10 {
+  width: 10%;
+}
+@-webkit-keyframes fillBar {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fillBar {
+  to {
+    transform: scaleX(1);
+  }
+}

@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="src/css/about.css">
     <title>About Me</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
     <div class="background-container ">
         <div class="stars"></div>
         <div class="twinkling"></div>
         </div>
-    <div class="flex flex-col w-screen h-screen items-center md:flex-row">
+    <section id="About-me" class="flex flex-col w-screen h-screen items-center md:flex-row">
         <div class="w-4/12">
             <div class="flex flex-col space-y-4">
             <img class="w-6/12 mx-auto " src="src/image/profile-pic.png" alt="My Photo"> 
         </div>
         </div>
-        <div class="w-8/12 text-center">
+        <div class="w-8/12 text-center mr-4">
             <div class="font-medium text-5xl mb-12">About Me</div>
-            <div class="px-12 text-justify tracking-widest">
+            <div class="px-12 text-left tracking-widest">
             Hello, I am Prasanna, a student from SRM Institute of Science and Technology pursuing a degree in B.Tech ,Electronics and Communication.
             I have been interested in the domain of computers since my childhood, and have been learning stuff in it from 7th Grade. I had initially
             engrossed myself with robotics and won several awards in science expos ,However only during the lockdown I began to engage myself further into
@@ -35,6 +35,56 @@
              
             </div>
         </div>
-    </div>
+    </section>
+    <section id="skills">
+        <div class="font-medium w-screen text-center text-5xl mb-12">My Skills</div>
+        <div class="flex flex-col w-screen justify-center items-center mx-auto md:flex-row md:space-x-10">
+        <div class="skills w-1/2">
+            <div class="skill mx-auto">
+              <h3 class="skill__type">HTML</h3>
+              <div class="skill__outer-bar">
+                <div class="skill__inner-bar skill__inner-bar--100"></div>
+              </div>
+            </div>
+            <!-- End of .skill -->
+            <div class="skill">
+              <h3 class="skill__type">CSS</h3>
+              <div class="skill__outer-bar">
+                <div class="skill__inner-bar skill__inner-bar--90"></div>
+              </div>
+            </div>
+            <!-- End of .skill -->
+            <div class="skill">
+              <h3 class="skill__type">JS</h3>
+              <div class="skill__outer-bar">
+                <div class="skill__inner-bar skill__inner-bar--80"></div>
+              </div>
+            </div>
+        </div>
+        <div class="skills w-1/2">
+            <div class="skill">
+              <h3 class="skill__type">HTML</h3>
+              <div class="skill__outer-bar">
+                <div class="skill__inner-bar skill__inner-bar--100"></div>
+              </div>
+            </div>
+            <!-- End of .skill -->
+            <div class="skill">
+              <h3 class="skill__type">CSS</h3>
+              <div class="skill__outer-bar">
+                <div class="skill__inner-bar skill__inner-bar--90"></div>
+              </div>
+            </div>
+            <!-- End of .skill -->
+            <div class="skill">
+              <h3 class="skill__type">JS</h3>
+              <div class="skill__outer-bar">
+                <div class="skill__inner-bar skill__inner-bar--80"></div>
+              </div>
+            </div>
+        </div>
+            <!-- End of .skill -->
+        </div>
+    </section>
 </body>
 </html>
