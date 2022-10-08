@@ -732,6 +732,10 @@ html {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -777,12 +781,20 @@ html {
   font-weight: 600;
 }
 
+.font-extralight {
+  font-weight: 200;
+}
+
 .tracking-\[\.15em\] {
   letter-spacing: .15em;
 }
 
 .tracking-\[0\.195em\] {
   letter-spacing: 0.195em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-my-red {
